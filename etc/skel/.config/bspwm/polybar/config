@@ -451,7 +451,7 @@ type = custom/script
 interval = 120
 exec = echo " " 
 click-right = "jgmenu_run >/dev/null 2>&1 &"
-click-left = "~/.bin/rofi/launchers/type-3/launcher.sh &"
+click-left = "~/.config/rofi/launchers/type-3/launcher.sh &"
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
