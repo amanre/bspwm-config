@@ -1,11 +1,11 @@
-pkgname=grub-themesgit
-_pkgname=grub-themes
-_destname1="/boot/grub/themes/"
+pkgname=bspwm-config-git
+_pkgname=bspwm-config
+_destname1="/etc/skel/.config/"
 pkgver=2
 pkgrel=01
-pkgdesc="Grub-themes "
+pkgdesc="bspwm config "
 arch=('any')
-url="https://github.com/amanre/grub-themes"
+url="https://github.com/amanre/bspwm-config-git"
 license=('GPL3')
 makedepends=('git')
 depends=('bash')
