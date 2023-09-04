@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-destination="/home/amanre/custom_repo/x86_64/"
+destination="/home/amanre/CUSTOM/custom_repo/x86_64/"
 
 			makepkg -f
 
