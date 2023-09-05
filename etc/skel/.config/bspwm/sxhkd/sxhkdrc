@@ -106,7 +106,7 @@ super + Escape
 
 #File-Manager
 super + shift + Return
-	nemo
+	thunar
 
 #Keyboard dependent
 #File-Manager
