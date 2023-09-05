@@ -1,6 +1,6 @@
 
 pkgname=bspwm-config-git
-_pkgname=amos-bspwm
+_pkgname=bspwm-config
 _destname1="/etc/skel/.config/bspwm/"
 pkgver=2
 pkgrel=03
