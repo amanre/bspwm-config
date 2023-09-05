@@ -897,7 +897,7 @@ click-left = thunderbird &
 inherit = module/apps
 content = 
 content-foreground = ${color.blue}
-click-left = nemo &
+click-left = thunar &
 click-right = pcmanfm &
 
 [module/settings]
