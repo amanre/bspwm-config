@@ -115,7 +115,7 @@ super + shift + Return
 
 #dmenu
 super + shift + w
-    ~/.bin/dmenu.sh
+    ~/.config/bspwm/scripts/dmenu.sh
 
 #reload sxhkd:
 super + shift + s
@@ -235,7 +235,7 @@ ctrl + shift + Escape
 
 #Scrot
 Print
-    scrot 'AmOs-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+    scrot 'Archlinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 
 #screeenshooter
 ctrl + Print

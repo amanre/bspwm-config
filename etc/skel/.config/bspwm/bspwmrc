@@ -98,10 +98,10 @@ bspc rule -a Thunar desktop='^8' follow=on
 bspc rule -a discord desktop='^9' follow=on
 bspc rule -a Spotify desktop='^10' follow=on
 
-Spotify fix  --move desktop 10
-sleep 1
-wmctrl -r Spotify -t 10
-exit
+#Spotify fix  --move desktop 10
+#sleep 1
+#wmctrl -r Spotify -t 10
+#exit
 
 #polybar hidden when fullscreen for vlc, youtube, mpv ...
 #find out the name of your monitor with xrandr

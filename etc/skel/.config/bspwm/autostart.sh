@@ -15,7 +15,7 @@ function run {
 
 # set wallpaper
 wal -i usr/share/backgrounds/custom-walls/wallhaven-rrpxp1_1920x1080.jpg
-sh ~/.fehbg &
+#sh ~/.fehbg &
 # set polybar
 $HOME/.config/bspwm/polybar/launch.sh &
 xsetroot -cursor_name left_ptr &
