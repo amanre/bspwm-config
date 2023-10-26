@@ -14,11 +14,12 @@ function run {
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 
 # set wallpaper
-wal -i /usr/share/backgrounds/custom-walls/Malefor.jpg
+wal -i /usr/share/backgrounds/custom-walls/urban-angel-3840x2400-v0-fb4ebw5drbub1.jpg
 #sh ~/.fehbg &
 # set polybar
 $HOME/.config/bspwm/polybar/launch.sh &
 $HOME/.config/bspwm/autostart/dual-monitors-xfce.desktop &
+$HOME/.config/autostart/xscreensaver.desktop
 xsetroot -cursor_name left_ptr &
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0" &
 #$HOME/.config/bspwm/scripts/dualscreen.sh &
