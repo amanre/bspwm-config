@@ -14,7 +14,7 @@ function run {
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 
 # set wallpaper
-wal -i /usr/share/backgrounds/custom-walls/urban-angel-3840x2400-v0-fb4ebw5drbub1.jpg
+wal -i ~/.config/bspwm/walls/urban-angel-3840x2400-v0-fb4ebw5drbub1.jpg
 #sh ~/.fehbg &
 # set polybar
 $HOME/.config/bspwm/polybar/launch.sh &
